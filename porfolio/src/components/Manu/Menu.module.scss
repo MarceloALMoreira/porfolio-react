@@ -4,7 +4,10 @@
 }
 
 .menu__container {
-    background-color: #2d373a;
+    background: rgb(37, 180, 245);
+    background: linear-gradient(15deg,
+            rgba(37, 180, 245, 0.37298669467787116) 7,
+            rgba(37, 180, 245, 1) 68%);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -17,12 +20,15 @@
     align-self: center;
     color: white;
     font-size: 22px;
-    border: 1px solid red;
 }
 
 .menu__icons {
     display: flex;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 2rem;
     list-style: none;
+    background-color: #ffffff25;
 }
 
 .icon__zap {
@@ -38,6 +44,11 @@
     padding: 0px 20px;
     font-size: 22px;
     text-decoration: none;
+}
+
+.icons__link a:hover {
+    color: #2b3f55;
+    transition: all 0.3s;
 }
 
 @media (max-width: 520px) {

@@ -1,3 +1,4 @@
+import { FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styles from './Navs.module.scss';
 
@@ -17,33 +18,9 @@ const Navs = () => {
                             <a href="">projetos</a>
                         </li>
                     </ul>
-                </div>
-
-                <div className={styles.navs__item}>
-                    <ul>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                    </ul>
-                </div>
-                <div className={styles.navs__item}>
-                    <ul>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                    </ul>
+                </div>            
+                <div className={styles.navs__item}>   
+                    <FaSearch className={ styles.icons_search} />    
                 </div>
             </section>
         </>
