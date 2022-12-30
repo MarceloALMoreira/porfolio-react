@@ -4,7 +4,8 @@
 }
 
 .navs__container {
-    background-color: #bcbcbc;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     display: flex;
     height: 55px;
     justify-content: space-between;
@@ -12,6 +13,7 @@
 
 .navs__item {
     align-self: center;
+    flex-wrap: wrap;
     text-decoration: none;
 }
 

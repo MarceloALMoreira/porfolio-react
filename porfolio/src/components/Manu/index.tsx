@@ -29,7 +29,7 @@ const Menu = () => {
                     <h3>Logo</h3>
                 </div>
                 <div className={styles.menu__item}>
-                    <div>
+                    <div className={styles.icon__zap}>
                         <FaWhatsapp />
                     </div>
                 </div>
