@@ -23,11 +23,10 @@ const Menu = () => {
                                 <FaGitlab />
                             </a>
                         </li>
-
                     </ul>
                 </div>
                 <div className={styles.menu__item}>
-                    <h3>Marcelo Almeida</h3>
+                    <h3>Logo</h3>
                 </div>
                 <div className={styles.menu__item}>
                     <div>
