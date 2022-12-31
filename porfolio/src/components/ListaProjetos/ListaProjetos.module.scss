@@ -1,0 +1,17 @@
+.projeto__lista{
+    margin: 10px;
+    text-align: center;
+    margin-top: 5rem;
+    height: auto;
+    background-color: blue;
+}
+.projeto__lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.projeto__itens{
+    flex-grow: 1;
+    flex-direction: column;
+    list-style: none;
+}
