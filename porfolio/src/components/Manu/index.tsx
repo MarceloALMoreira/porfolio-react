@@ -4,7 +4,7 @@ import styles from './Menu.module.scss';
 
 const Menu = () => {
     return (
-        <>
+        
             <section className={styles.menu__container}>
                 <div className={styles.menu__item}>
                     <ul className={styles.menu__icons}>
@@ -17,12 +17,7 @@ const Menu = () => {
                             <a href="">
                                 <FaGithub />
                             </a>
-                        </li>
-                        <li className={styles.icons__link}>
-                            <a href="">
-                                <FaGitlab />
-                            </a>
-                        </li>
+                        </li>                        
                     </ul>
                 </div>
                 <div className={styles.menu__item}>
@@ -30,11 +25,11 @@ const Menu = () => {
                 </div>
                 <div className={styles.menu__item}>
                     <div className={styles.icon__zap}>
-                        <FaWhatsapp />
+                        {/* <FaWhatsapp /> */}
                     </div>
                 </div>
             </section>
-        </>
+      
     )
 }
 
